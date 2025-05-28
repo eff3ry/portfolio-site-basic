@@ -46,7 +46,7 @@ const App = () => {
                         near: 0.1,
                         far: 1000
                     }}>
-                <OrbitControls enableZoom enablePan enableRotate />
+                <OrbitControls enableZoom enablePan={false} enableRotate />
 
                 <directionalLight position={[1, 1, 1]} intensity={10} color={0x9CDBA6} />
 

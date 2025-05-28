@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Footer.css';
 // Note: You'll need to install react-icons with: npm install react-icons
-import { FaTwitter, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
