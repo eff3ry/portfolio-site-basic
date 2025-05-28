@@ -1,0 +1,38 @@
+.social-footer {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it sits on top of the canvas */
+  pointer-events: none; /* Allows interaction with the canvas beneath */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.social-links {
+  pointer-events: auto; /* Re-enables interaction with the links */
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  color:var(--font-color);
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Makes text readable on any background */
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 4px;
+}
+
+.social-link:hover {
+  color: var(--link-hover-color);
+}
+
+.icon-placeholder {
+  font-size: 18px;
+}
