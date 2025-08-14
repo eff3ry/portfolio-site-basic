@@ -6,12 +6,13 @@ import Projects from './pages/Projects';
 
 const App = () => {
     return (
-        <Router basename="/portfolio-site-basic">
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-            </Routes>
-        </Router>
+        <p>Hello world</p>
+        //<Router basename="/portfolio-site-basic">
+        //    <Routes>
+        //        <Route path="/" element={<Home />} />
+        //        <Route path="/projects" element={<Projects />} />
+        //    </Routes>
+        //</Router>
     );
 }
 export default App;
