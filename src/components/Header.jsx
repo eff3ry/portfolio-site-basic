@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <ThemeToggle />
-      {/*<Navbar />*/}
+      <Navbar />
     </>
   );
 };

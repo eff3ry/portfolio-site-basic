@@ -1,0 +1,12 @@
+.projects-content {
+    pointer-events: auto; /* Re-enables interaction if needed */
+    text-align: center;
+}
+
+.projects-title {
+    color: var(--font-color);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+

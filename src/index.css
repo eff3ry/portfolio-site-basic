@@ -18,6 +18,8 @@
   --button-bg-color: #f9f9f9;
   --button-border-hover: #646cff;
   --card-color: #888;
+  --card-bg: #fff;
+  --accent-color: #007bff;
 }
 
 /* Dark theme variables */
@@ -29,6 +31,8 @@
   --button-bg-color: #1a1a1a;
   --button-border-hover: #646cff;
   --card-color: #888;
+  --card-bg: #1a1a1a;
+  --accent-color: #3399ff;
 }
 
 /* Apply theme variables */

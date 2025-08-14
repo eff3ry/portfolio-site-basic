@@ -9,7 +9,7 @@ const App = () => {
         <Router basename="/portfolio-site-basic">
            <Routes>
                <Route path="/" element={<Home />} />
-               {/*<Route path="/projects" element={<Projects />} />*/}
+               <Route path="/projects" element={<Projects />} />
            </Routes>
         </Router>
     );
