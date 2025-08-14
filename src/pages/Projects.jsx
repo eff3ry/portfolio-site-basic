@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/Projects.css';
 
-const projectList = [
+const exampleProjects = [
     {
         title: 'Project Alpha',
         description: 'A brief description of Project Alpha.',
@@ -25,9 +25,20 @@ const Projects = () => {
     return (
         <div style={{ position: 'relative' }}>
             <Header />
-            <div className="projects-content">
-                <h1 className="projects-title">Projects</h1>
-            </div>
+            <header className="projects-header">
+                <div className="projects-content">
+                    <h1 className="projects-title">Projects</h1>
+                    <div className="projects-list">
+                        {exampleProjects.map((project, idx) => (
+                            <div key={idx} className="project-card">
+                                <h2 className="project-card-title">{project.title}</h2>
+                                <p className="project-card-desc">{project.description}</p>
+                                <a href={project.link} className="project-card-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </header>
             <Footer />
         </div>
     );

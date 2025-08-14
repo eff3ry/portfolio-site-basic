@@ -1,12 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.projects-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background: var(--background-color);
+}
+
 .projects-content {
-    pointer-events: auto; /* Re-enables interaction if needed */
+    pointer-events: auto;
     text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .projects-title {
     color: var(--font-color);
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.project-card {
+    background: var(--card-bg, #fff);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    transition: box-shadow 0.2s;
+}
+.project-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.project-card-title {
+    margin-bottom: 0.5rem;
+    color: var(--font-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project-card-desc {
+    margin-bottom: 1rem;
+    color: var(--font-color);
+    font-size: 1rem;
+}
+
+.project-card-link {
+    color: var(--accent-color, #007bff);
+    font-weight: 500;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.project-card-link:hover {
+    color: #0056b3;
+}
