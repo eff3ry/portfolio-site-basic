@@ -1,7 +1,8 @@
 {
-  "name": "vite-react",
+  "name": "portfolio-site-basic",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "homepage": "https://github.io/eff3ry/portfolio-site-basic",
   "type": "module",
   "scripts": {
     "dev": "vite",
