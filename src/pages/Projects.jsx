@@ -23,24 +23,22 @@ const exampleProjects = [
 
 const Projects = () => {
     return (
-        <div style={{ position: 'relative' }}>
+        <>
             <Header />
-            <header className="projects-header">
-                <div className="projects-content">
-                    <h1 className="projects-title">Projects</h1>
-                    <div className="projects-list">
-                        {exampleProjects.map((project, idx) => (
-                            <div key={idx} className="project-card">
-                                <h2 className="project-card-title">{project.title}</h2>
-                                <p className="project-card-desc">{project.description}</p>
-                                <a href={project.link} className="project-card-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                            </div>
-                        ))}
-                    </div>
+            <div className="projects-content">
+                <h1 className="projects-title">Projects</h1>
+                <div className="projects-list">
+                    {exampleProjects.map((project, idx) => (
+                        <div key={idx} className="project-card">
+                            <h2 className="project-card-title">{project.title}</h2>
+                            <p className="project-card-desc">{project.description}</p>
+                            <a href={project.link} className="project-card-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                        </div>
+                    ))}
                 </div>
-            </header>
+            </div>
             <Footer />
-        </div>
+        </>
     );
 };
 

@@ -1,33 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-.projects-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-    pointer-events: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    background: var(--background-color);
-}
-
 .projects-content {
-    pointer-events: auto;
-    text-align: center;
-    width: 100%;
     max-width: 700px;
     margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
 .projects-title {
     color: var(--font-color);
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -36,7 +20,6 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin-top: 2rem;
     width: 100%;
 }
 
@@ -49,10 +32,6 @@
     max-width: 500px;
     margin: 0 auto;
     text-align: left;
-    transition: box-shadow 0.2s;
-}
-.project-card:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
 .project-card-title {
