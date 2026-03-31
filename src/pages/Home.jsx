@@ -43,7 +43,7 @@ const Home = () => {
             <header className="home-header">
                 <div className="home-content">
                     <h1 className="main-title">Jeffery Tolmie</h1>
-                    <h2 className="subtitle"><a href="https://www.aut.ac.nz/">AUT</a> Student Studying Computer Science</h2>
+                    <h2 className="subtitle"><a href="https://www.aut.ac.nz/">AUT</a> Graduate in Bachelour of Computer and Information Sciences</h2>
                     <h2 className="subtitle">Major in Software Development | Minor in Artificial Intelligence</h2>
                 </div>
             </header>
